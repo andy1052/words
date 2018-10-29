@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC');
+
+
+#section-1 {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("win.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.container {
+	text-align: center;
+	height: 100%;
+	margin: 25% auto;
+	padding: 5px;
+}
+
+
+#blurb {
+	color: #000;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 50%;
+	margin: 5px 0px;
+	padding: 5px;
+}
+
+ul {
+	color: #c70000;
+	width: 100%;
+	margin: 30px;
+	/*text-shadow:1px 0px #000;*/
+	font-size: 16px;
+}
+
+#act {
+	color: #000;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 90%;
+	margin: 40px 5px 10px 0px;
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+#background {
+	/*background-color: rgba(255, 255, 255, 0.3); /*rgba is to apply opacity to element and avoid inheritance by child elements.*/
+	width: 100%;
+	padding: 3px;
+	border-radius: 1%;
+}
+
+#sign-up {
+	display: block;
+	position: relative;
+	width: 200px;
+	margin-left: 16%;
+	color: #1444bb;
+	font-family: 'Lobster', cursive, Arial, sans-serif;
+	font-size: 18px;
+}
+
+#arrow {
+	border: 3px solid white;
+	height: 40px;
+	width: 40px;
+	transform: rotate(45deg) translateY(-15px) translateX(5px);
+	border-top: none;
+	border-left: none;
+	margin: 40px auto;
+	cursor: pointer;
+}
+
+/* Section 2 */
+#section-2 {
+	height: 100%;
+	background-color: #ffb700;
+	background-size: 100% 100%;
+}
+
+#two {
+	height:500px;
+	width: 100%;
+}
+
+/*	Style for the slideshow section */
+
+* {box-sizing: border-box;}
+
+/*	Slideshow container */
+.slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: 60px auto 5px auto;
+}
+
+/*	Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+/*	Next and previous buttons */
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+/* 	position the "next button" to the right */
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+/*	On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+}
+
+/*	Caption text */
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+/*	Number Text (1/3, etc...) */
+.numberText {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top:0; 
+}
+
+/*	The dots/bullets/indicators */
+.dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.writing {
+	background-color: transparent;
+	color: #9a7b41;
+	font-size: 36px;
+	height: 50px;
+	text-shadow: 2px 2px #000;
+	text-align: center;
+	font-family: 'Diplomata SC', cursive, Helvetica, sans-serif;
+}
+
+#headline {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	color: #000;
+	width: 100%;
+	margin: 5px 0px 50px 0px;
+	padding: 5px;
+}
+
+.pic {
+	text-align: center;
+}
+
+#title {
+	color: #000;
+	width: 100%;
+	margin:15px 5px 5px 15px;
+	text-align: center;
+	font-size: 18px;
+	font-family: Arial, helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+#cover {
+	width: 200px;
+	height: 290px;
+	margin: 10px 10px 0px 50px;
+ 	border: 1px solid black;
+	border-radius: 1.5%;
+}
+
+#horizontal-break {
+	height: 340px;
+	width: 1px;
+	margin: 25px 15px;
+	border: 1px solid #bbb;
+}
+
+/*	Fading animation */
+/*.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+@keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+}
+
+/*	End of Slideshow Styling */
+
